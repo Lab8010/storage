@@ -404,7 +404,7 @@ platforms with "buggy" udev.
             - name: shared
               size: "100 GiB"
               mount_point: "/mnt/app/shared"
-              #fs_type: xfs
+              fs_type: xfs
               state: present
             - name: users
               size: "400g"
